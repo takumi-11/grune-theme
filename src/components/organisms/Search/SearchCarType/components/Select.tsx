@@ -77,7 +77,7 @@ const Select = () => {
                 </div>
             </div>
             <div className="flex justify-center my-5">
-                <button className="flex bg-cyan-600 pl-10 pr-3 py-2 text-xl text-white hover:opacity-75">
+                <button className="flex bg-cyan-600 pl-10 pr-3 py-2 lg:text-xl text-white hover:opacity-75">
                     <div>
                         一覧はこちら
                     </div>

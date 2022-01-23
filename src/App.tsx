@@ -48,7 +48,7 @@ function App() {
       </div>
       <Scroll to="top" smooth={true}>
         <div>
-          <img className="fixed bottom-10 right-4 hover:opacity-75 z-10" src={`${process.env.PUBLIC_URL}/icon/backToTop.png`} alt="アイコン" />
+          <img className="fixed bottom-10 right-1 hover:opacity-75 z-10" src={`${process.env.PUBLIC_URL}/icon/backToTop.png`} alt="アイコン" />
         </div>
       </Scroll>
     </>

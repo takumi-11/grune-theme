@@ -9,7 +9,7 @@ const SliderCarSP = () => {
     };
 
     return (
-        <Slider className="w-5/6 mt-16 mb-24" {...settings} >
+        <Slider className="w-5/6 mt-16 mb-24 mx-auto" {...settings} >
             {SliderData.map((data) => {
                 return (
                     <SlideItem key={data} data={data} />

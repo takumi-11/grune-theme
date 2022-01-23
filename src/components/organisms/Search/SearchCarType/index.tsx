@@ -3,7 +3,7 @@ import Select from './components/Select';
 
 const SearchCarType = () => {
     return (
-        <div className='lg:w-2/6 bg-gray-100 shadow-md lg:mr-24'>
+        <div className='lg:w-2/6 bg-gray-100 shadow-md lg:mr-24 pb-5'>
             <div className='text-xl md:text-2xl lg:text-3xl text-gray-400 ml-5'>
                 <div className="md:flex md:justify-center flex justify-center lg:justify-start">
                     車種から探す    
