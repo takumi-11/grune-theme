@@ -6,6 +6,14 @@ const SliderCar = () => {
     const settings = {
         slidesToShow: 4,
         arrows: true,
+        responsive: [
+            {
+                breakpoint: 900,
+                settings: {
+                    slidesToShow: 1,
+                },
+            },
+        ],
     };
 
     return (
