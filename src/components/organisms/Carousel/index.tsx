@@ -8,6 +8,8 @@ const Carousel = () => {
     const settings = {
         dots: true,
         arrows: false,
+        autoplay: true,
+        autoplaySpeed: 4000,
     };
 
     const items: Item[] = [

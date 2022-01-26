@@ -6,6 +6,8 @@ const SliderCar = () => {
     const settings = {
         slidesToShow: 4,
         arrows: true,
+        autoplay: true,
+        autoplaySpeed: 4000,
         responsive: [
             {
                 breakpoint: 900,
